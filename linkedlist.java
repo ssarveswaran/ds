@@ -21,6 +21,17 @@ public class linkedlist {
         node.next=null;
         node.next=head;
         head=node;}
+      public void insertindexAt(int i,int a){
+        node node=new node();
+        node.data=a;
+        node.next=null;
+        node h=head;
+        for(int j=0;j<i-1;j++){
+            h=h.next;
+        }
+        node.next=h.next;
+        h.next=node;
+      }
         
     public void show(){
         node nl=head;
@@ -31,5 +42,6 @@ public class linkedlist {
             System.out.println(nl.data);
         
     }
+
     
 }
