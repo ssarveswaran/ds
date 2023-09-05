@@ -4,7 +4,8 @@ class linkedmain{
         a.insert(18);
         a.insert(8);
         a.insertAtStart(6);
-                a.show();
+        a.insertindexAt(2,34);
+        a.show();
 
     }
 }
