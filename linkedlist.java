@@ -17,7 +17,7 @@ public class linkedlist {
     }
     public void insertAtStart(int a){
         node node=new node();
-        node.data=data;
+        node.data=a;
         node.next=null;
         node.next=head;
         head=node;}
